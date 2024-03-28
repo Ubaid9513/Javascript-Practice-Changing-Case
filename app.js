@@ -13,3 +13,8 @@ if(flag){
 }else{
     alert("It's not one of the cleanest cities");
 }
+
+var fullname = 'ubaid';
+var firstchar = fullname.slice(0,1).toUpperCase()
+var result = firstchar + fullname.slice(1);
+console.log(result);
